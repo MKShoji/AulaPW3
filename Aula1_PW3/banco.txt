@@ -1,0 +1,48 @@
+http://localhost/phpmyadmin/
+
+nome do banco: bdpw3
+
+create table tbCategoria(
+ idCategoria int primary key auto_increment
+,categoria varchar(50)
+);
+
+create table tbProduto(
+ idProduto int primary key auto_increment
+,produto varchar(50)
+,idCategoria int
+,valor float
+,foreign key(idCategoria) references tbCategoria(idCategoria) 
+);
+
+
+insert into tbCategoria values(
+ null
+,'Alimentação'
+);
+
+insert into tbCategoria values(
+ null
+,'Tecnologia'
+);
+
+insert into tbProduto values(
+null
+,'Biscoito'
+,1
+,3.5
+);
+
+insert into tbProduto values(
+null
+,'SmartPhone'
+,2
+,2500
+);
+
+insert into tbProduto values(
+null
+,'Chocolate'
+,2
+,8
+);
