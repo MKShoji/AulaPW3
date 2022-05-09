@@ -7,5 +7,6 @@
         <a href="categoria-json.php"> Categoria (JSON Edition)</a> 
         <a href="consulta-cep.php"> CEP</a> 
         <a href="consulta-tempo.php"> Tempo</a> 
+        <a href="cadastroUsuario.php"> Regitrar-se </a>
     </div>
 </div>
