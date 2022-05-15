@@ -57,7 +57,7 @@ img {
     height: 500px;
     padding: 20px;
     width: 500px;
-    margin: auto;
+    margin: 20px 5px 5px 0px;;
 }
 
 .title {
@@ -171,7 +171,13 @@ body {
     align-items: center;
     background: linear-gradient(#141e30, #243b55);
     justify-content: center;
+    height: 100%;
 }
+
+html {
+    height: 100%;
+}
+
 
 .create-acount {
     text-align: center;
