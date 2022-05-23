@@ -2,13 +2,29 @@
 <?php include("cabecalho.php");  ?>
 <?php include("conexao.php"); ?>
 
+<?php
+    $stmt = $pdo->prepare("SELECT * from tbProduto");
+    $stmt->execute();
+?>
+
+<?php
+    while($row = $stmt ->fetch(PDO::FETCH_BOTH)) {
+        echo "<div class='caixa'>
+        <img src='img/ilustracao.png' class='image-cards'>
+        <div class='area-texto'>
+                <p> $row[1] </p>
+                <p> $row[3] </p>  
+        </div>
+    </div>";
+    }
+?>
 
 <section>
     <link rel="stylesheet" href="css/index.css">
     <div class="container-index">
     <h1> Destaques da Loja!</h1>
     <br>
-    <ul class="cards">
+    <!-- <ul class="cards">
                 <li> 
                     <div class="caixa">
                         <img src="img/ilustracao.png" class="image-cards">
@@ -45,6 +61,6 @@
                         </div>
                     </div>
                 </li>
-            </ul>
+            </ul> -->
     </div>
 </section>

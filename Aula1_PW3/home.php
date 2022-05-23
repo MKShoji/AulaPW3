@@ -1,6 +1,7 @@
 <?php include("menu.php");  ?>
 <?php include("cabecalho.php");  ?>
 <?php include("conexao.php"); ?>
+<?php include("verifica-cookie.php"); ?>
 
 <section>
 
