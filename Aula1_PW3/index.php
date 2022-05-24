@@ -20,6 +20,8 @@
 ?>
 
 <section>
+    <!-- Arruma isso aqui inteiro ta uma depressão -->
+
     <link rel="stylesheet" href="css/index.css">
     <div class="container-index">
     <h1> Destaques da Loja!</h1>

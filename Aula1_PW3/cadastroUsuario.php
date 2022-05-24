@@ -3,6 +3,7 @@
 <?php include("conexao.php"); ?>
 
 <section>
+    <!-- Arruma a fonte dessa desgraça aqui não da pra enxergar a merda da letra pq o Matheus é um animal -->
     <link rel="stylesheet" href="css/form.css">
     <div class="form">
         <form method="post" action="cadastro-salvar.php">

@@ -6,7 +6,7 @@ create table tbUsuario (
 idUsuario int primary key auto_increment,
 usuario varchar(50),
 senha varchar(50)
-)
+);
 
 create table tbCategoria(
  idCategoria int primary key auto_increment

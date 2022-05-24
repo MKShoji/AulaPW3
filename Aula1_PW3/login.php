@@ -15,12 +15,14 @@ if(isset($_GET['errodados'])) {
 
 <div>
     <?php
+        // Dá um jeito pra deixar isso aqui visivel
         echo $erro ?? '';
         echo $erro_dados ?? '';
     ?>
 </div>
 
 <section>
+    <!-- Arruma a fonte dessa desgraça aqui não da pra enxergar a merda da letra pq o Matheus é um animal -->
     <form class="form" action="verificar-login.php" method="POST">
         <div class="title">Login</div>
         <div class="subtitle">Coloque seus dados nas opções abaixo!</div>
