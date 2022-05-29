@@ -29,7 +29,7 @@
 
 <section>
 
-	<!-- Arruma a propreidade do body dessa página que tá uma desgraça -->
+	<!-- Arruma a propreidade do body dessa página que tá uma desgraça (Concluído) -->
 
 	<div class="container">
 

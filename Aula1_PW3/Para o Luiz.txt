@@ -1,0 +1,8 @@
+Pra ver o que você tem que fazer acessa essa desgraça de arquivo
+
+Páginas para serem concertadas:
+- login.php (Concluído)
+- home.php (Concluído)
+- index.php (Concluído)
+
+// Colocar src='$row[4]' na home de imagens

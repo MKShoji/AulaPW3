@@ -15,12 +15,12 @@
                 <label for="usuario" class="placeholder">Usuario</label>
             </div>
             <div class="input-container ic2">
-                <input id="email" class="input" type="text" name="senha" placeholder=" " />
+                <input id="email" class="input" type="password" name="senha" placeholder=" " />
                 <div class="cut cut-short"></div>
                 <label for="senha" class="placeholder">Senha</label>
             </div>
             <div class="input-container ic2">
-                <input id="email" class="input" type="text" name="confirma-senha" placeholder=" " />
+                <input id="email" class="input" type="password" name="confirma-senha" placeholder=" " />
                 <div class="cut cut-short"></div>
                 <label for="senha" class="placeholder">Confirmar senha</label>
             </div>

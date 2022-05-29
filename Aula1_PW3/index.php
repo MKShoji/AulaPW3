@@ -10,17 +10,17 @@
 <?php
     while($row = $stmt ->fetch(PDO::FETCH_BOTH)) {
         echo "<div class='caixa'>
-        <img src='img/ilustracao.png' class='image-cards'>
+        <img src='$row[4]' class='image-cards'>
         <div class='area-texto'>
                 <p> $row[1] </p>
-                <p> $row[3] </p>  
+                <p>R$ $row[3] </p>  
         </div>
     </div>";
     }
 ?>
 
 <section>
-    <!-- Arruma isso aqui inteiro ta uma depressão -->
+    <!-- Arruma isso aqui inteiro ta uma depressão (Concluído) -->
 
     <link rel="stylesheet" href="css/index.css">
     <div class="container-index">

@@ -38,7 +38,7 @@ null
 ,'Biscoito'
 ,1
 ,3.5
-,'Image/Computador.png'
+,'Image/biscoito.jpg'
 );
 
 insert into tbProduto values(
@@ -46,7 +46,7 @@ null
 ,'SmartPhone'
 ,2
 ,2500
-,'Image/Computador.png'
+,'Image/smartphone.jpg'
 );
 
 insert into tbProduto values(
@@ -54,5 +54,5 @@ null
 ,'Chocolate'
 ,2
 ,8
-,'Image/Computador.png'
+,'Image/chocolate.jpg'
 );

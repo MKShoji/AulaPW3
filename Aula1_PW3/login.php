@@ -9,20 +9,20 @@ if(isset($_GET['erro'])) {
 }
 
 if(isset($_GET['errodados'])) {
-    $erro_dados = 'Dados não se conferem';
+    $erro_dados = 'Usuário e/ou senha incorretos! Tente novamente';
 }
 ?>
 
-<div>
+<div class="erro">
     <?php
-        // Dá um jeito pra deixar isso aqui visivel
+        // Dá um jeito pra deixar isso aqui visivel (Concluído)
         echo $erro ?? '';
         echo $erro_dados ?? '';
     ?>
 </div>
 
 <section>
-    <!-- Arruma a fonte dessa desgraça aqui não da pra enxergar a merda da letra pq o Matheus é um animal -->
+    <!-- Arruma a fonte dessa desgraça aqui não da pra enxergar a merda da letra pq o Matheus é um animal (Concluído)-->
     <form class="form" action="verificar-login.php" method="POST">
         <div class="title">Login</div>
         <div class="subtitle">Coloque seus dados nas opções abaixo!</div>
@@ -32,11 +32,11 @@ if(isset($_GET['errodados'])) {
             <label for="usuario" class="placeholder">Usuario</label>
         </div>
         <div class="input-container ic2">
-            <input id="password" class="input" type="text" name="password" placeholder=" " />
+            <input id="password" class="input" type="password" name="password" placeholder=" " />
             <div class="cut cut-short"></div>
             <label for="senha" class="placeholder">Senha</label>
         </div>
-        <button type="text" class="submit">enviar</button>
+        <button type="text" class="submit">Enviar</button>
         <div class="create-acount">
             <br>
             <a href="cadastroUsuario.php"> Regitrar-se </a>
