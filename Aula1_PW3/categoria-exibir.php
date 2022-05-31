@@ -21,7 +21,7 @@
 <section>
 	<div class="container">
 		<?php
-			$stmt = $pdo->prepare("select categoria from tbCategoria");	
+			$stmt = $pdo->prepare("select idCategoria, categoria from tbCategoria");	
 			$stmt ->execute();
 		?>
 
@@ -35,7 +35,7 @@
 				<?php
 					while($row = $stmt ->fetch(PDO::FETCH_BOTH)){
 						echo "<tr>";				
-							echo "<td>".utf8_encode($row[0])."</td>";
+							echo "<td>".utf8_encode($row[1])."</td>";
 							echo "<td>";
 								echo "<a href='categoria-excluir.php?id=$row[0]'>Excluir </a>";
 							echo "</td>";					

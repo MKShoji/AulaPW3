@@ -2,6 +2,9 @@ http://localhost/phpmyadmin/
 
 nome do banco: bdpw3
 
+create database bdpw3;
+use bdpw3;
+
 create table tbUsuario (
 idUsuario int primary key auto_increment,
 usuario varchar(50),
