@@ -22,7 +22,7 @@
 			<div>
 				<input type="text" placeholder="Imagem" name="txImagem" value="<?php echo @$_GET['image']?>">
 			</div>
-			<button type="submit" class="registerbtn">Slavar</button>
+			<button type="submit" class="registerbtn">Salvar</button>
 		</form>
 	</div>
 </section>
@@ -45,6 +45,7 @@
 				<th> Imagem </th>
 				<th> &nbsp; </th>
 				<th> &nbsp; </th>
+				<th> &nbsp; </th>
 			</thead>
 			<tbody>
 				<?php
@@ -58,7 +59,7 @@
 								echo "<a href='produto-excluir.php?id=$row[0]'>Excluir </a>";
 							echo "</td>";
 							echo "<td>";
-								echo "<a href='?id=$row[0]&produto=$row[1]&idCat=$row[2]&valor=$row[3]&image=$row[4]'> Alterar </a>"; 
+								echo "<a href='produto-alterar.php?id=$row[0]&produto=$row[1]&idCat=$row[2]&valor=$row[3]&image=$row[4]'> Alterar </a>"; 
 							echo "</td>";	
 						echo "</tr>";			
 					}	
