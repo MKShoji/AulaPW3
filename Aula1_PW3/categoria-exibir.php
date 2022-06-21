@@ -30,6 +30,7 @@
 			<thead>
 				<th> Categoria </th>
 				<th> &nbsp; </th>
+				<th> &nbsp; </th>
 			</thead>
 			<tbody>
 				<?php
@@ -38,6 +39,9 @@
 							echo "<td>".utf8_encode($row[1])."</td>";
 							echo "<td>";
 								echo "<a href='categoria-excluir.php?id=$row[0]'>Excluir </a>";
+							echo "</td>";
+							echo "<td>";
+								echo "<a href='categoria-alterar.php?id=$row[0]&categoria=$row[1]'> Alterar </a>";
 							echo "</td>";					
 						echo "</tr>";				
 					}	

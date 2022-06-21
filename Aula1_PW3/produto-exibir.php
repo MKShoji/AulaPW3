@@ -45,7 +45,6 @@
 				<th> Imagem </th>
 				<th> &nbsp; </th>
 				<th> &nbsp; </th>
-				<th> &nbsp; </th>
 			</thead>
 			<tbody>
 				<?php
